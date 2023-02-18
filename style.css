@@ -1,0 +1,332 @@
+body{
+  margin: 0%;
+}
+
+@font-face {
+    font-family: 'Conv_LG Smart Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LG Smart Regular'), url('LG Smart Regular.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'LG Smart Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LG Smart Bold'), url('LG Smart Bold.woff') format('woff');
+    }
+@font-face {
+        font-family: 'LG Smart SemiBold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('LG Smart SemiBold'), url('LG Smart SemiBold.woff') format('woff');
+        }
+
+.header{
+    background: white;
+    width: 1236px;
+    height: 103px;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-right: 65px;
+}
+#logo{
+    width: 150px;
+    height: 57px;
+    margin-top: 23px;
+    margin-bottom: 19px;
+    float: left;
+}
+#home{
+    width: 1349px;
+    height: 421px;
+}
+.navbar{
+    width: 868px;
+    height: 103px;
+    padding-top: 38px;
+    padding-left: 320px;
+}
+span{
+    font-family: 'LG Smart SemiBold';
+    font-size: 21px;
+    color: #808080;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 23px;
+}
+
+span:hover{
+    color:#b9203a;
+}
+#lge{
+    position: relative;
+    left: 200px;
+    background: #b9203a;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 22px;
+    font-size: 16px;
+    text-align: center;
+    font-family:"Conv_LG Smart Regular";
+}
+#lge:hover{
+    background: #808080;
+}
+#hiring{
+    position: relative;
+    top: -4px;
+    background: #b9203a;
+    color: white;
+    border: none;
+    font-family:"Conv_LG Smart Regular";
+    font-size: 16px;
+    margin-left: 1171px;
+    height: 26px;
+    width: 113px;
+    
+}
+#hiring:hover{
+    background: #808080; 
+}
+.happiness{
+    width: 1250px;
+    height: 183px;
+    line-height: 28px;
+}
+.h1f{
+    color: #b9203a;
+    font-size: 48px;
+    font-family: "LG Smart Bold";
+    margin-left: 65px;
+    margin-top: 70px;
+    line-height: 48px;
+}
+#h1s{
+    color: #b9203a;
+    font-size: 48px;
+    font-family: "LG Smart Bold";
+    line-height: 48px;
+    position: relative;
+    top: -20%;
+    left: 0%;
+}
+.h1t{
+    color: #b9203a;
+    font-size: 48px;
+    font-family: "LG Smart Bold";
+    line-height: 48px;
+    position: relative;
+    top: 60px;
+}  
+.mainp{
+    font-size: 20px;
+    line-height: 15px;
+    color: #808080;
+    font-family:"Conv_LG Smart Regular";
+    margin-left: 65px;
+    font-weight: bold;
+}
+.p1{
+    font-size: 20px;
+    line-height: 25px;
+    color: #808080;
+    font-family:"Conv_LG Smart Regular";
+    margin-left: 65px;
+    position: relative;
+    left: -65px;
+    bottom: 36px;
+}
+.rdtop{
+    width: 416.6px;
+    height: 242px;
+    float: left;
+    text-align: left;
+}
+.rddown{
+    width: 416.6px;
+    height: 265px;
+    float: left;
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+#randd{
+    margin-left: 65px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+h5{
+    font-family: 'LG Smart SemiBold';
+    color: #58595b;
+    font-size: 25px;
+    line-height: 30px;
+}
+.imgrd{
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+#withlg{
+    margin-left: 65px;
+}
+.cards{
+    width: 280px;
+    height: 478px;
+    background: #b9203a;
+    float: left;
+    margin-right: 32px;
+    padding: 1px;
+    margin-top: 62px;
+}
+.imgcard{
+    width: 280px;
+    height: 200px;
+}
+.textcard{
+    background-color: white;
+    width: 280px;
+    height: 268px;
+    position: relative;
+    margin-top: -4px;
+}
+label{
+    position: relative;
+    font-size: 22px;
+    font-family: 'LG Smart SemiBold';
+    line-height: 26px;
+    top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.hr{
+    width: 230px;
+    background-color: black;
+    height: 1px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.p2{
+    font-family: 'LG Smart SemiBold';
+    font-size: 18px;
+    line-height: 18.4px;
+    width: 230px;
+    margin-left: 25px;
+    margin-top: 38px;
+    color: #2c2d2e;
+    
+}
+.h6{
+    font-family: "Conv_LG Smart Regular";
+    font-size: 19px;
+    margin-left:  25px;
+    position: relative;
+    top: 25px;
+}
+.h7{
+    font-family: "Conv_LG Smart Regular";
+    font-size: 19px;
+    margin-left:  25px;
+    position: relative;
+    top: 8px;
+}
+.arrow{
+    font-family: "Conv_LG Smart Regular";
+    font-size: 32px;
+    position: relative;
+    top: 27px;
+    left: -50px;
+    font-weight: bold;
+}
+.arrow2{
+    font-family: "Conv_LG Smart Regular";
+    font-size: 32px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+    font-weight: bold;
+}
+#footer{
+    clear: both;
+    position: relative;
+    width: 1349px;
+    height: 264.8px;
+    background: #8b8c8f;
+    margin-top: 660px;
+
+}
+#footl{
+    float: left;
+    margin-left: 280px;
+    padding-top: 4px;
+}
+.footertxt{
+    text-align: left;
+    width: 433px;
+    height: 71px;
+    font-family: 'LG Smart SemiBold';
+    font-size: 22px;
+    line-height: 26.4px;
+    color: white;
+}
+#h6copy{
+    text-align: left;
+    width: 413px;
+    height: 21px;
+    font-family: 'LG Smart SemiBold';
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 12px;
+}
+#line{
+    top: 60px;
+    background: white;
+    height: 155px;
+    float: left;
+    width: 1.5px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.footertxtr{
+    float: left;
+    text-align: left;
+    font-size: 22px;
+    line-height: 25.3px;
+    color: white;
+    padding-top: 4px;
+    font-family: 'LG Smart SemiBold';
+    margin-left: 45px;
+}
+.footertxtrmail{
+    float: left;
+    text-align: left;
+    font-size: 22px;
+    line-height: 25.3px;
+    color: white;
+    padding-top: 4px;
+    font-family: 'LG Smart SemiBold';
+    margin-left: 45px;
+    position: relative;
+    top: -98px;
+}
+#sociallin{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 139px;
+    left: -228px;
+}
+#socialfb{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 139px;
+    left: -220px;
+}
